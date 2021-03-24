@@ -1,0 +1,29 @@
+.loginwindow {
+    background: White;
+    min-height: 20vh;
+    min-width: 700px;
+    margin: auto;
+    padding: 1rem;
+    border: #0f0f0f 5px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginwindow img {
+    margin: 2rem 0;
+}
+
+.LoginForm {
+    min-width: 300px;
+    display: inherit;
+    flex-direction: column;
+    margin: auto;
+}
+
+.LoginFormItem {
+    margin: 1rem !important;
+}
+
+.LoginFormItem:nth-child(3) {
+    margin-bottom: 4rem !important;
+}
